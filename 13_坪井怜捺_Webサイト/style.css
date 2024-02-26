@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+
+	body{
+		background-color: #5376A6;
+	}
+
+	header{
+		height: 100px;
+	}
+	
+	ul{
+		list-style: none;
+		text-align: center;
+		}
+	
+	header{
+		background-image: url();
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 200px;
+		padding-top: 10px;
+	}
+div{
+	
+	background-color: grey;
+}
+img{
+	width: 300px;
+	height: 300px;
+}
+
+	
