@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+ul{list-style:none;
+   float:right;
+   display:flex;
+   width:200px;
+   width:0px;
+   }
+a:hover{color:aqua}
+h1{clear: both;
+   color:#F56262;
+   font-family:"HGS創英角ﾎﾟｯﾌﾟ体";
+   }
+
+header{background-repeat: no-repeat;
+	   background-size: cover;
+       height:450px;
+       width:400px;
+       position: relative;
+}
+header nav  a {
+	display:block;
+	width:100px;
+	line-height:px;
+	margin:0px 1px 10px 4px;
+	text-align:center;
+	color:#666666;
+	text-decoration:none;
+	
+	
+}
+header nav ul li a:hover {
+	
+}
+p{clear:both;}
+h2{}
+img{
+
+	
+}
+j{margin-right:1000px;
+  float: left;}
+
+li{font-family: "HGS創英角ﾎﾟｯﾌﾟ体";}
+
+b{font-size: 30px;}
+
+c{margin-right:1150px;
+  float: left;}
+
+ul{
+	display: flex;
+}
+li{
+	list-style: none;
+}
+section{display: flex;
+        width: 800px}
+video{width: 500px;
+	  height: 300px;
+      margin-left:400px;
+	  margin-top:-500px;
+      margin-right:-300px;
+	  transform:translateY(-10%)
+    }
+
+body{bacground-image:url("img/marin.jpg");
+}
