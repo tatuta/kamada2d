@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{background-color: blue;}
+
+nav{
+	background-color: black;
+    width:1000px;
+	height: 4000px;
+	margin: auto;
+}
+
+h2{
+	margin: auto;
+	color: white;
+}
+
+aside{background-color: yellow;
+    width:1400px;
+	height: 200px;
+	margin: auto;
+}
+
+ul{
+	margin: auto;
+}
+
+li{
+float:left;
+margin:auto;
+padding-left:10px;
+padding-right:20px;
+border-right:solid yellow 5px;
+}
+
+p.color01{
+    color:white;
+}
+
+p.title{
+	font-size:200%;
+	color:white;
+}
+
+p.text01{
+    font-size:120%;
+	color:white;
+}
+
+p.text02{
+    font-size:100%;
+	color:white;
+	margin-left: auto;
+}
+
+h2{
+    font-family:serif;
+}
+
+.flex {
+  display: flex; /*横並び*/
+}
+.flex .image {
+  width: 280px; /*画像サイズ指定*/
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+}
+.flex .right {
+  margin: 0 0 0 20px;
+  padding: 0;
+}
+.flex .title {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  font-size: 25px;
+	color:white;
+	
+}
+.flex .text {
+  margin: 10px 0 0;
+  padding: 0;
+	color:white;
+}
+
+
+

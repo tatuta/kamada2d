@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{background-color: blue;}
+
+ul{
+	margin: auto;
+}
+
+nav{background-color: yellow;
+    width:1400px;
+	height: 270px;
+	margin: auto;
+}
+
+div{background-color: black;
+    width:1000px;
+	height: 2000px;
+	margin: auto;
+}
+
+
+
+
+li{
+float:left;
+margin:auto;
+padding-left:10px;
+padding-right:20px;
+border-right:solid yellow 5px;
+}
+
+h2{
+	margin: auto;
+}
+
+
+p.color01{
+    color:white;
+}
+
+p.text01{
+  font-size:50px; 
+}
+
+aside{
+	text-align:center;
+}
+	
+	
+	heder{
+	background-color:blue;
+	width:25%;
+	order:2;
+}
+	
+p.color01{
+    color:white;
+}
+	
+
+	
+	
+	
+	
+	
+	
