@@ -1,0 +1,63 @@
+[https://webukatu.com/wordpress/blog/5628/#HTML-2]
+
+HTMLの基本構造でよく使うタグ
+
+ <!DOCTYPE html>	 HTML宣言コード
+
+ <html></html>	 HTMLドキュメントを表す
+
+ <head></head>	 HTMLのヘッダー部分
+
+ <title></title>	ページのタイトルを表示
+head内に書く
+
+ <meta charset=”UTF-8”>	meta:ブラウザに情報を与える、head内に書く
+左は、文字コードを表している
+
+ <body></body>	HTMLのコンテンツ部分
+中身にはブラウザに表示させるコードを書く
+ 
+
+body内でよく使うタグ
+
+ <header></header>	Webページの一番上の部分
+ロゴやメニューを表示させる時に使う
+
+ <footer></footer>	Webページの一番下の部分
+会社情報やコピーライトを表示させる時に使う
+
+<h1></h1>　<h2></h2>
+<h3></h3>　<h4></h4>
+<h5></h5>　<h6></h6>	見出しを表示させる
+h1は大見出し、数が大きいほど小見出しになる
+
+ <div></div>	 ブロック要素(1つのかたまり)としてグループ化
+
+ <span></span>	 インライン要素(文章の一部)としてグループ化
+
+ <p></p>	 文章を書くための段落
+
+ <a href=”URL”></a>	 リンク先を表示させる
+
+ <img src=”ファイル名” alt=”代替テキスト” >	 画像を表示させる
+
+ <ul></ul>	 ナンバーのない箇条書きリストを表示させる
+ <ol></ol>	 ナンバー付きの箇条書きリストを表示させる
+ <li></li>	 リストの各項目を入力する
+
+ <table></table>	 表を作成する時に使う
+ <tr></tr>	 表の行(横の部分)を表示
+ <th></th>	 表の見出しを作成
+ <td></td>	 内容を入れるセルを作成
+
+ <form></form>	 フォームを作成する時に使うメインタグ
+ <input type=”” name=”” value=””>	 入力フォームを作成する
+ <button></button>	 ボタンを作成する
+ <select></select>	 セレクトボックスを作成時に使うメインタグ
+ <option></option>	 選択肢の内容を作成
+ <textarea name=”” rows=”” cols=””></textarea>	 複数行のテキストボックスを作成
+
+<br> 文章の改行
+<hr> 水平方向の罫線を引く
+<strong></strong> テキストを太字にして強調する
+<small></small> テキストを小文字にする

@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-image:url("images/haikei.jpg");
+
+}
+main{
+	margin:auto;
+	padding:auto;
+}
+hr{
+	clear:both;
+}
+h2{
+	clear:both;
+	line-height:0.5px;
+	padding-bottom:0.9px;
+}
+p{ 
+   margin-top:10px;
+}
+img{
+	padding:0px 100px 0px 0px; 
+}
+
+.box{
+	border-bottom-style: dotted;
+	
+}
+.container{
+	float:right;
+	margin:auto;
+	padding-right:775px;
+}
+.contains{
+	float:left;
+}
+ bi{
+	position:absolute;
+	right:1150px;
+}
