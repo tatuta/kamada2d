@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+h1{
+	background-color: aquamarine;
+	color: blue;
+}
+h2{
+	background-color:#C2F086;
+	color:#0BE9C3;
+}
+li{
+	flex-direction: column;
+	margin: 30px;
+	height:inherit;
+	background-color:wheat;
+	color: #7F6DD9;
+}
+h3{
+	background-color:paleturquoise;
+}
+p{
+	background-color: chartreuse;
+}
+body{
+	background-color:#4100FD;
+}
+div{
+	text-align: center
+}

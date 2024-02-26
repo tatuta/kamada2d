@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+h1{
+	background-color: aquamarine;
+}
+li{
+	flex-direction: column;
+	margin: 20px;
+	float: right;
+	height:inherit;
+}
