@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+ul{
+	list-style:none;
+	display:flex;
+}
+li{
+	flex-direction:column;
+	justify-content:space-between;
+	margin:20px;
+}
+.position02{
+	position: absolute;
+	top:750px;
+	right:100px;
+}
+h1{
+	font-family:serif;
+	font-weight:800;
+}
+h2{
+	font-family:serif;
+	font-weight:800;
+}
+body{
+	color: white;
+	background-color: black;
+}
+@media(max-width:900){}
