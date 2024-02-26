@@ -405,11 +405,12 @@ header #headerLinks a {
 	width: 100%;
 	padding-left: 0px;
 }
+h2{
+	text-align:center;
+	margin-left:50px;
+}
 }
 #foo{
 	text-align: center;
 }
-h2{
-	text-align:center;
-	color:red;
-}
+
