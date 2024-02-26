@@ -1,0 +1,21 @@
+@charset "utf-8";
+#container{
+	display:flex;
+}
+#contents{
+	background-color:#f00;
+	width:50%;
+	order:3;
+	/*
+	float:left;
+	*/
+}
+
+aside{
+	background-color:#FF5500;
+	width:50%;
+	order:4;
+}
+#body{
+		background-color:#F0FF00;
+}
