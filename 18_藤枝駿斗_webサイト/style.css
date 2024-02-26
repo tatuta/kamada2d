@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color: black
+}
+header{
+	height:100px;
+	background-color: black
+}
+h1{
+	float: left;
+}
+	a:link {
+color: #00ff00
+}
+a:visited {
+color: #006600
+}
+a:hover {
+color: #00cc00
+}
+a:active {
+color: #0000ff
+}
+ul{
+	list-style-type:none;
+	margin-left:440px;
+}
+li{
+float:left;
+padding-right:40px;
+border-right:solid #fff 2px;
+	margin-top:35px;
+	margin-right: 40px;
+	margin: 15px 65px 20px 20px;
+	color: white;
+	padding: 10px;
+}
+h1{
+	margin-left:600px;
+}
+.wrap {
+  position: relative;
+}
+.background{width:100%; /*動画を100%配置*/}	
+.message {
+  color: #fff;/*テキストカラー*/
+  font-size: 500%;/*テキストサイズ*/
+  position: absolute;/*子要素に指定*/
+  left: 35%;  top: 200px;/*配置指定に注意してください。*/
+  z-index: 1;/*動画より上に重ねる*/
+}
