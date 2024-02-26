@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>HTML入門 - 基本的な書き方を学ぶ</title>
+<link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+<header>
+<h1>HTMLの基本的な書き方</h1>
+</header>
+<main>
+<section id="main-content"><h2>7. CSSアニメーションとトランジション</h2>
+<h3>アニメーションとトランジションの違い</h3>
+<ul>
+<li><strong>トランジション（Transition）</strong>: 要素の状態が変化したときに、その変化を滑らかにする効果を与えるものです。例えば、ホバー時に色が変わるボタンなどで使用されます。</li>
+<li><strong>アニメーション（Animation）</strong>: 複数のキーフレームを定義し、それらの間を移動することで、要素に複雑な動きや変化を与えるものです。例えば、フェードインや回転などの効果を実装するのに使用されます。</li>
+</ul>
+<h3>CSSアニメーションの基本構文と例</h3>
+<p>```css
+@keyframes animationName {
+  0% {
+    /* アニメーションの初期状態 <em>/
+    transform: scale(1);
+  }
+  50% {
+    /</em> アニメーションの途中の状態 <em>/
+    transform: scale(1.5);
+  }
+  100% {
+    /</em> アニメーションの最終状態 */
+    transform: scale(1);
+  }
+}</p>
+<p>.element {
+  animation: animationName 2s ease infinite;
+}
+``<code>
+この例では、</code>@keyframes<code>を使用して</code>animationName<code>という名前のアニメーションを定義しています。そして、</code>.element`にそのアニメーションを適用し、2秒間かけて要素を拡大縮小させています。</p>
+<h3>CSSトランジションの基本構文と例</h3>
+<p>```css
+.element {
+  transition: property duration timing-function delay;
+}</p>
+<p>/* 例 */
+.button {
+  transition: background-color 0.3s ease;
+}</p>
+<p>.button:hover {
+  background-color: #ff0000;
+}
+``<code>
+この例では、</code>.button<code>に</code>background-color<code>のトランジションを設定し、ホバー時に0.3秒かけて背景色を変更する効果を与えています。</code>ease`は変化がゆっくり始まり、終わりが速くなるようなタイミング関数です。</p>
+<p>CSSアニメーションとトランジションを使うことで、ウェブページに動きや効果を追加し、ユーザーエクスペリエンスを向上させることができます。</p>
+</section>
+</main>
+<footer>
+<p>HTML学習サイト</p>
+<p>Copyright 2024 HTML Tutorial</p>
+</footer>
+</body>
+</html>

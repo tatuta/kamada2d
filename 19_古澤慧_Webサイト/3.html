@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>HTML入門 - 基本的な書き方を学ぶ</title>
+<link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+<header>
+<h1>HTMLの基本的な書き方</h1>
+</header>
+<main>
+<section id="main-content"><h2>3. CSSの基礎</h2>
+<h3>CSSとは何か</h3>
+<p>CSS（Cascading Style Sheets）は、HTMLやXMLなどのマークアップ言語で記述された文書のスタイルやレイアウトを指定するためのスタイルシート言語です。HTMLが文書の構造を定義するのに対し、CSSはその見栄えやスタイルを定義します。</p>
+<h3>セレクタ、プロパティ、値の説明</h3>
+<ul>
+<li><strong>セレクタ（Selector）</strong>: スタイルが適用される要素を選択するためのパターンです。要素のタイプ、クラス、IDなどを指定することができます。</li>
+<li><strong>プロパティ（Property）</strong>: スタイルの特定の属性を指定します。例えば、<code>color</code>や<code>font-size</code>などがあります。</li>
+<li><strong>値（Value）</strong>: プロパティに割り当てる具体的な値です。色、サイズ、位置など、プロパティによって許容される値は異なります。</li>
+</ul>
+<h3>CSSの基本構文</h3>
+<p>CSSは、セレクタとそのスタイルの宣言の組み合わせで構成されます。例えば、次のような形式です：
+<code>css
+セレクタ {
+    プロパティ: 値;
+    プロパティ: 値;
+    ...
+}
+</code>
+このようにして、特定のセレクタに対してスタイルを指定します。</p>
+<h3>CSSの適用方法（インライン、内部、外部）</h3>
+<ol>
+<li><strong>インラインスタイル</strong>: HTML要素の<code>style</code>属性を使用して、その要素に直接スタイルを適用します。例えば：
+```html</li>
+</ol>
+<p style="color: red;">このテキストは赤色です。</p>
+<p><code>
+2. **内部スタイルシート**: HTML文書内で`&lt;style&gt;`タグを使用して、スタイルを定義します。例えば：
+</code>html
+<head>
+<style>
+        p {
+            color: red;
+        }
+    </style>
+</head>
+<code>
+3. **外部スタイルシート**: 外部のCSSファイルを作成し、HTML文書でそれをリンクします。例えば：
+</code>html
+<head>
+<link href="styles.css" rel="stylesheet"/>
+</head>
+```
+外部スタイルシートは、複数のHTMLファイルで同じスタイルを共有する場合や、スタイルを管理しやすくする場合に便利です。</p>
+<p>CSSのセレクタ、プロパティ、値を使ってスタイルを指定し、適切な方法でHTML文書に適用することで、ウェブページの見栄えやレイアウトを制御することができます。</p>
+</section>
+</main>
+<footer>
+<p>HTML学習サイト</p>
+<p>Copyright 2024 HTML Tutorial</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>HTML入門 - 基本的な書き方を学ぶ</title>
+<link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+<header>
+<h1>HTMLの基本的な書き方</h1>
+</header>
+<main>
+<section id="main-content"><h2>2. HTMLの基礎</h2>
+<h3>HTMLとは何か</h3>
+<p>HTML（HyperText Markup Language）は、ウェブページを作成するためのマークアップ言語です。HTML文書は、テキストやメディア要素などのコンテンツを構造化し、ブラウザに表示するための指示を含みます。</p>
+<h3>タグ、属性、要素の説明</h3>
+<ul>
+<li><strong>タグ（Tag）</strong>: HTML文書内で要素を定義するために使用されます。開始タグと終了タグの組み合わせで要素を囲みます。例えば、<code>&lt;p&gt;</code>が段落を示す開始タグであり、<code>&lt;/p&gt;</code>が終了タグです。</li>
+<li><strong>属性（Attribute）</strong>: タグに付加される追加情報で、要素の動作や外観を制御します。例えば、<code>&lt;a&gt;</code>要素には<code>href</code>属性があり、リンク先のURLを指定します。</li>
+<li><strong>要素（Element）</strong>: 開始タグと終了タグの間に含まれる全体の構造を指します。要素はコンテンツとタグから構成されます。</li>
+</ul>
+<h3>HTMLの基本構造</h3>
+<p>HTML文書は通常、以下の基本構造を持ちます：
+<code>html
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;Document&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;!-- ここにコンテンツを記述 --&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code>
+- <code>&lt;!DOCTYPE html&gt;</code>: 文書がHTML5であることを定義します。
+- <code>&lt;html&gt;</code>: HTML文書全体を囲むルート要素です。
+- <code>&lt;head&gt;</code>: 文書に関するメタ情報やスタイルシート、スクリプトなどの要素を含みます。
+- <code>&lt;meta&gt;</code>: 文書のメタデータを定義します。
+- <code>&lt;title&gt;</code>: 文書のタイトルを指定します。
+- <code>&lt;body&gt;</code>: ブラウザに表示される実際のコンテンツを含みます。</p>
+<h3>HTMLの基本タグ</h3>
+<ul>
+<li><code>&lt;h1&gt;</code>から<code>&lt;h6&gt;</code>: 見出しを定義します。<code>&lt;h1&gt;</code>が最も重要な見出しであり、<code>&lt;h6&gt;</code>が最も小さい見出しです。</li>
+<li><code>&lt;p&gt;</code>: 段落を定義します。</li>
+<li><code>&lt;a&gt;</code>: リンクを作成します。</li>
+<li><code>&lt;img&gt;</code>: 画像を表示します。</li>
+<li>他にも、<code>&lt;div&gt;</code>、<code>&lt;span&gt;</code>、<code>&lt;ul&gt;</code>、<code>&lt;ol&gt;</code>など、様々な要素がありますが、これらは基本的な要素です。</li>
+</ul>
+<p>HTMLの基本構造とタグを理解することは、ウェブページの作成において重要な第一歩です。</p>
+</section>
+</main>
+<footer>
+<p>HTML学習サイト</p>
+<p>Copyright 2024 HTML Tutorial</p>
+</footer>
+</body>
+</html>

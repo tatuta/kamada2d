@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>HTML入門 - 基本的な書き方を学ぶ</title>
+<link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+<header>
+<h1>HTMLの基本的な書き方</h1>
+</header>
+<main>
+<section id="main-content"><h2>5. Flexboxの活用</h2>
+<h3>Flexboxの定義</h3>
+<p>Flexbox（Flexible Box）は、コンテナ内のアイテムのレイアウトを行うためのCSSのモジュールです。Flexboxを使用すると、コンテナ内のアイテムを柔軟に配置し、スペースの分配やアイテムのサイズ変更を容易にすることができます。</p>
+<h3>Flexboxの主なプロパティとその使い方</h3>
+<ol>
+<li><strong>flex-direction</strong>: Flexコンテナ内のアイテムの配置方向を指定します。デフォルト値は<code>row</code>ですが、<code>row-reverse</code>、<code>column</code>、<code>column-reverse</code>なども使えます。</li>
+<li><strong>justify-content</strong>: メイン軸（<code>flex-direction</code>で指定した方向）に沿ってアイテムを配置する際の方法を指定します。<code>flex-start</code>、<code>flex-end</code>、<code>center</code>、<code>space-between</code>、<code>space-around</code>などの値があります。</li>
+<li><strong>align-items</strong>: クロス軸（<code>flex-direction</code>と直交する方向）に沿ってアイテムを配置する際の方法を指定します。<code>flex-start</code>、<code>flex-end</code>、<code>center</code>、<code>baseline</code>、<code>stretch</code>などの値があります。</li>
+<li><strong>flex</strong>: アイテムの伸縮性を設定します。<code>flex-grow</code>、<code>flex-shrink</code>、<code>flex-basis</code>のショートハンドです。</li>
+<li><strong>align-self</strong>: 個々のアイテムに対して<code>align-items</code>と同様の機能を提供します。</li>
+</ol>
+<h3>実際のFlexboxの活用例</h3>
+<p>```css
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}</p>
+<p>.item {
+  flex: 1;
+}
+<code>
+</code>html</p>
+<div class="container">
+<div class="item">Item 1</div>
+<p><div class="item">Item 2</div>
+<div class="item">Item 3</div>
+</p></div>
+<p>``<code>
+この例では、</code>.container<code>内の</code>.item<code>をFlexアイテムとして配置しています。</code>flex-direction: row<code>により、アイテムが水平方向に並びます。</code>justify-content: space-between<code>は、アイテム間のスペースを均等に配置します。</code>align-items: center<code>は、アイテムを垂直方向に中央揃えします。</code>.item<code>の</code>flex: 1`は、アイテムがコンテナの利用可能なスペースを均等に分配することを指示します。</p>
+<p>このようにFlexboxを活用することで、レイアウトの柔軟性やスペースの効率的な利用が可能になります。</p>
+</section>
+</main>
+<footer>
+<p>HTML学習サイト</p>
+<p>Copyright 2024 HTML Tutorial</p>
+</footer>
+</body>
+</html>
