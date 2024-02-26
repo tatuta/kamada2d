@@ -1,0 +1,195 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+div{
+	margin-left: 25px;
+}
+
+.sample1{
+	width: 1000px;
+	border-radius:50px;
+	border: solid 3px  rgba(144,102,86,1.00);
+}
+
+.sample2{
+	border-radius:50px;
+	width: 300px;
+	height: 300px;
+	border:solid 3px rgba(144,102,86,1.00);
+}
+
+.sample3{
+	width: 1000px;
+	height: 450px;
+	border-radius:50px;
+	border: solid 3px  rgba(14,112,35,1.00);
+}
+
+.sample4{
+	width: 300px;
+	height: 300px;
+	border-radius:50px;
+	border: solid 3px rgba(14,112,35,1.00);
+}
+
+.sample5{
+	width: 1000px;
+	height: 550px;
+	border-radius:50px;
+	border: solid 3px #336666;
+}
+
+.sample6{
+	width: 1000px;
+	height: 600px;
+	border-radius:50px;
+	border: solid 3px #8f6552;
+}
+
+.sample7{
+	width: 1000px;
+	height: 600px;
+	border-radius:50px;
+	border: solid 3px #8f6552;
+}
+
+.sample8{
+	width: 300px;
+	height: 300px;
+	border-radius: 50px;
+	border: solid 3px rgba(144,102,86,1.00);
+}
+
+.sample9{
+	width: 300px;
+	height: 300px;
+	border-radius:50px;
+	border: solid 3px rgba(144,102,86,1.00);
+}
+
+
+.sample10{
+	width:300px;
+	height: 300px;
+	border-radius: 50px;
+	border: solid 3px rgba(14,112,35,1.00);
+}
+
+.sample11{
+	width:300px;
+	height: 300px;
+	border-radius: 50px;
+	border: solid 3px rgba(14,112,35,1.00);
+}
+
+.sample12{
+	width:300px;
+	height:300px;
+	border-radius: 50px;
+	border: solid 3px #336666;
+}
+
+.sample13{
+	width:300px;
+	height:300px;
+	border-radius: 50px;
+	border: solid 3px #336666;
+}
+
+.sample14{
+	width:300px;
+	height:300px;
+	border-radius: 50px;
+	border: solid 3px #336666;
+}
+
+.sample15{
+	width:300px;
+	height:300px;
+	border-radius: 50px;
+	border: solid 3px #8f6552;
+}
+
+.sample16{
+	width:300px;
+	height:300px;
+	border-radius: 50px;
+	border: solid 3px #8f6552;
+}
+
+.sample17{
+	width:300px;
+	height:300px;
+	border-radius: 50px;
+	border: solid 3px #8f6552;
+}
+
+.sample18{
+	width:300px;
+	height:300px;
+	border-radius: 50px;
+	border: solid 3px #8f6552;
+}
+ 
+.sample19{
+	width:300px;
+	height:300px;
+	border-radius: 50px;
+	border: solid 3px #8f6552;
+}
+
+h1{
+	font-family: "ＭＳ 明朝";
+	text-decoration-line: underline;
+	
+	font-size: 40px;
+	line-height: 60px;
+}
+
+h2{
+	font-family: "ＭＳ 明朝";
+	text-decoration: underline;
+	font-size: 35px;
+	line-height: 60px;
+	margin: 5px;
+}
+
+h3{
+	font-size: 20px;
+	font-family: "ＭＳ 明朝";
+}
+
+p{
+	font-size: 20px;
+	font-family: "ＭＳ 明朝";
+	margin:15px;
+}
+
+.sample20{
+	font-weight: 600;
+}
+
+img{
+	display: block;
+	margin: 15px;
+}
+
+
+
+body{
+	background-image: url( "kabegami.jpg");
+}
+
+ul{
+	display: flex;
+	margin-left: 20px;
+}
+
+li{
+	list-style: none;
+}
+
+
