@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-image:url("../webサイト 作成 　素材/リムル　ウィンク.jpg");
+}
+
+h1{
+	color:#009BFF;
+	float:left;
+	background-color:skyblue;
+	margin:auto;
+}
+
+
+b{
+	color:orangered;
+	background-color: yellow;
+}
+li{
+color:deepskyblue;
+font:90px; 
+float:left;
+
+}
+a{
+	color:steelblue;
+	background-color:#00FFFB;
+	float:inherit
+}
+ul{
+	float:right;
+	color:royalblue;
+}
+h4{
+	background-color:#8DEBFF;
+	float:none;
+}
+h5{
+	color:cornflowerblue;
+	float:left;
+}
+
+    
