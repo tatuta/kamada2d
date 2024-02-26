@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+html{
+    background-color: gray;
+}
+h1{
+    color: blue;
+    font-size: 50px;
+    margin:20px 50px 10px 50px;
+}
+
+li{
+    font-size: 40px;
+    margin:40px 40px 20px 50px;
+}
+body{
+    background-color:white;
+}
+
+.he1{
+    font-size: 55px;
+    color: magenta;
+    padding:25px;  
+    
+}
+footer{
+    font-size: 50px;
+    color:magenta;
+}
