@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color:#2BACFF;
+}
+header{
+	background-color:#FFFFFF;
+	margin:10px;
+}
+h1{
+	padding:10px;
+	padding-left:30px;
+}
+li{
+	margin:10px;
+	padding-bottom:10px;
+}
