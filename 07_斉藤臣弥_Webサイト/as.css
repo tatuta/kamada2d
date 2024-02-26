@@ -1,0 +1,62 @@
+/* CSS Document */
+
+
+
+li{
+	font-size: 20px;
+	color:blue;
+	list-style: none;
+	float:right;
+	margin: 30px;
+	line-height:4;
+}
+li:hover{
+	color:blueviolet;
+}
+
+video{
+	float: right;
+	margin: 30px;
+	transform: translateY(-70%);
+}
+#A{
+	margin-left: 100px;
+  transform: translateY(-70%);
+	padding: 30px;
+}
+#B{
+	padding: 30px;
+}
+h1{
+	color: aqua;
+	width: 30px;
+	margin-top: -90px;
+}
+a{
+	margin-left: 1000px;
+}
+.P{
+	color: blue;
+	margin-left: 270px;
+	font-size: 25px;
+	text-align:inline;
+	transform: translateY(-10px);
+}
+.N{
+	color: blue;
+	font-size: 25px;
+	transform: translateY(300%);
+	text-align:inherit;
+}
+p{
+	transform: translateY(-650px);
+	font-size: 30px;
+	
+	
+}
+a:hover{
+	color: red;
+}
+body{
+	background-color: #B5FBE4;
+}
