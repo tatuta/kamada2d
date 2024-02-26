@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-image:url("");
+	width:900px;
+	margin:auto;
+	background-color:aliceblue;
+	padding:10px 5px;}
+
+header h1{
+	background:url("使う写真/VRChat Logo.png") no-repeat left center;
+	padding:0px 150px;
+	color:#666666;}
+
+ul.nav{
+	margin:0;
+	padding:0;
+}
+.nav li{
+	list-style-type:none;
+	float:left;
+}
+.nav li a{
+	display:block;
+	width:150px;
+	line-height:30px;
+	margin:20px;
+	color:#ffffff;
+	background: #000080;
+	text-decoration:none;
+	text-align:center;
+}
+.nav li a:hover{
+	background:#7fb3f3;
+}
+
+p{
+	clear:both
+}
+
+h2{
+	clear:both
+}
+
+
